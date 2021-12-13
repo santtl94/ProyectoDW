@@ -1,0 +1,123 @@
+footer {
+    display: grid;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background-color: $colorFooter;
+    .gridContainer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+        .sec h2 {
+            position: relative;
+            color: white;
+            font-weight: 500;
+            margin-bottom: 15px;
+            &::before{
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: yellow;
+            }
+                p {
+                    color: white;
+        }
+
+}    
+
+
+.sociales{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    gap: 20px;
+    li {
+        list-style: none;
+    }
+         a {
+            display:inline-block;
+            width: 48px;
+            height: 48px;
+            display: grid;
+            align-content: center;
+            justify-content: center;
+            text-decoration: none;
+            border-radius: 4px;
+            color: white;
+            &:hover{
+                color: black;
+            }
+        }
+}
+
+
+.otroslinks {
+    position: relative;
+    li {
+    list-style: none;
+        a {
+            color: white;
+            text-decoration: none;
+            margin-bottom: 10px;
+            display: inline-block;
+            &:hover {
+                color: black;
+            }
+        }
+} 
+
+ .masInfo {
+     position: relative;
+    li {
+     display: grid;
+     grid-template-columns: 30px 1fr;
+     margin-bottom: 16px;
+        }
+        span {
+            color: white;
+            &:nth-child(1) {
+            color: white;
+            font-size: 20px;
+            }
+            }        
+            a {
+                color: white;
+                text-decoration: none;
+                &:hover {
+                    color: black;
+                }
+                }
+ }
+
+ 
+ .shop {
+    position: relative;
+    li {
+        display: grid;
+        list-style: none;
+        }
+        a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+        color: black;
+        }
+        }
+    }
+ 
+.copyright {
+    width: 100%;
+    background: #FF6D6D;
+    color: white;
+    padding: 8px 100px;
+    text-align: center;
+}
+}
+}
+

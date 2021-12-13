@@ -1,0 +1,224 @@
+header {
+  display: flex;
+  background-color: #E6CCA9;
+  padding: 2rem 0;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 30px;
+}
+header .nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  display: block;
+  transition: all 0.4s linear;
+  text-decoration: none;
+  color: black;
+}
+header nav ul li a:hover {
+  color: black;
+  border: 1px solid black;
+  border-radius: 4rem;
+  padding: 5px 5px;
+}
+
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #533535;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  display: grid;
+  /* min-height: 100vh;
+  justify-content: end;
+  align-content: end; */
+}
+
+.container {
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.main {
+  padding-top: 12rem;
+}
+
+#Servicios-link, #Nosotros-link {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+p {
+  line-height: 150%;
+  font-size: 20px;
+  margin-bottom: 1.6em;
+}
+
+.main-container {
+  display: flex;
+  margin-top: 200px;
+}
+
+.ofertas {
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.formulario {
+  padding: 250px;
+}
+
+footer {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background-color: #FF6D6D;
+}
+footer .gridContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+footer .sec h2 {
+  position: relative;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+footer .sec h2::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: yellow;
+}
+footer .sec h2 p {
+  color: white;
+}
+footer .sociales {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  gap: 20px;
+}
+footer .sociales li {
+  list-style: none;
+}
+footer .sociales a {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 4px;
+  color: white;
+}
+footer .sociales a:hover {
+  color: black;
+}
+footer .otroslinks {
+  position: relative;
+}
+footer .otroslinks li {
+  list-style: none;
+}
+footer .otroslinks li a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+footer .otroslinks li a:hover {
+  color: black;
+}
+footer .otroslinks .masInfo {
+  position: relative;
+}
+footer .otroslinks .masInfo li {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  margin-bottom: 16px;
+}
+footer .otroslinks .masInfo span {
+  color: white;
+}
+footer .otroslinks .masInfo span:nth-child(1) {
+  color: white;
+  font-size: 20px;
+}
+footer .otroslinks .masInfo a {
+  color: white;
+  text-decoration: none;
+}
+footer .otroslinks .masInfo a:hover {
+  color: black;
+}
+footer .otroslinks .shop {
+  position: relative;
+}
+footer .otroslinks .shop li {
+  display: grid;
+  list-style: none;
+}
+footer .otroslinks .shop a {
+  color: white;
+  text-decoration: none;
+}
+footer .otroslinks .shop a:hover {
+  color: black;
+}
+footer .otroslinks .copyright {
+  width: 100%;
+  background: #FF6D6D;
+  color: white;
+  padding: 8px 100px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

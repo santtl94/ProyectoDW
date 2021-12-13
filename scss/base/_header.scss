@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    background-color: $colorHeader;
+    padding: 2rem 0;
+    left:0;
+    top: 0;
+    right: 0;
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 30px;
+        }
+        .nav ul li {
+            display: inline-block;
+        }
+        nav ul li a {
+            display: block;
+            transition: all 0.4s linear;
+            text-decoration: none;
+            color: black;
+            &:hover {
+            color: black;
+            border: 1px solid black;
+            border-radius: 4rem;
+            padding: 5px 5px;
+            }
+        }
+
+
+}
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
